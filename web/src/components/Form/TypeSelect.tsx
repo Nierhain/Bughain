@@ -1,9 +1,7 @@
 import { Select } from "@mantine/core";
 
 export default function () {
-    return (
-        <Select data={}/>
-    )
+    return <Select data={[]} />;
 }
 
 // export const ReportTypes: Record<ReportType, string> = {
